@@ -7,7 +7,7 @@ packages = ["signals"]
 
 [project]
 name = "signals-py"
-version = "0.1.0"
+version = "0.1.0.post1"
 description = "send and receive signals"
 readme = "README.md"
 requires-python = ">=3.12"
