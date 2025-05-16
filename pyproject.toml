@@ -1,15 +1,14 @@
 [project]
-name = "signals-core"
+name = "signals-py"
 version = "0.1.0"
 description = "send and receive signals"
 readme = "README.md"
-requires-python = ">=3.11"
+requires-python = ">=3.12"
 maintainers = [
     {name = "amirreza",email = "amir.rsf1380@gmail.com"},
 ]
 classifiers = [
     "Programming Language :: Python",
-    "Environment :: Web Environment",
     "Development Status :: 4 - Beta" ,
     "Topic :: Utilities",
     "Intended Audience :: Developers",
@@ -17,17 +16,17 @@ classifiers = [
     "Topic :: Software Development :: Libraries",
     "Programming Language :: Python :: 3",
     "Programming Language :: Python :: 3 :: Only",
-    "Programming Language :: Python :: 3.11",
     "Programming Language :: Python :: 3.12",
     "Programming Language :: Python :: 3.13",
+    "Typing :: Typed",
 ]
 dependencies = [
     "lazy-settings>=0.1.0",
 ]
 
 [project.urls]
-Homepage = "https://github.com/khiyavan/signals-core"
-Issues = "https://github.com/khiyavan/signals-core/issues"
+Homepage = "https://github.com/khiyavan/signals-py"
+Issues = "https://github.com/khiyavan/signals-py/issues"
 
 [tool.mypy]
 exclude = ["tests/"]
